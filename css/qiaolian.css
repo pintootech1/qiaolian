@@ -47,6 +47,15 @@ body {
 	top: 26px;
 	left: 30px;
 }
+.tab_fan img{
+	vertical-align: middle;
+}
+.tab_fan span{
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: 10px;
+}
 .tab_xuan{
 	position: absolute;
 	top: 25px;
@@ -487,13 +496,9 @@ h4{
 
 /*管理成员*/
 .guanlichengyuan{
-	/*position: absolute;
-	left: 200px;
-	top: 25px;*/
 	line-height: 96px;
-	color: #414141;
+	color: #FFFFFF;
 	font-size: 32px;
-	/*font-weight: bold;*/
 }
 .sousuo{
 	height: 70px;
@@ -1473,7 +1478,18 @@ h4{
 
 
 .ShouCang{
-	margin: 0;
+	/*margin-right: 30px;
+	float: right;*/
+	position: absolute;
+	top: 200px;
+	right: 30px;
+	background: #4B9BD8;
+	width: 120px;
+	height: 50px;
+	color: #FFFFFF;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
 }
 .weui_search_outer{
 	border-radius: 8px;
@@ -1630,4 +1646,10 @@ h4{
 }
 input{
 	text-indent: 10px;
+}
+.floot{
+	padding:  0 30px;
+	margin-bottom: 30px;
+	color: #999B9A;
+	font-size: 22px;
 }
